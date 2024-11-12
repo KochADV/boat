@@ -17,4 +17,12 @@
     - Note you have to update "settings>General" checkbox AND "settings>Resources>WSL Integration"
     - See Gios Video here: https://www.youtube.com/watch?app=desktop&v=4K4nkncZ2OQ
  
-  
+### Launch Sail
+- Run "./vendor/bin/sail up -d" in Ubuntu Powershell
+
+
+### Open project in conatiner with VS Code
+- File oepn folder
+- Open from this location "\\wsl.localhost\Ubuntu\home\merwester74"
+- type localhost into browser
+    - if there is an error try running migration:  ./vendor/bin/sail artisan migrate
