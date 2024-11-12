@@ -22,7 +22,7 @@
 
 ### Open project in conatiner with VS Code
 - File oepn folder
-- Open from this location:
+- Open from this location:  
     \\wsl.localhost\Ubuntu\home\merwester74
 - type localhost into browser
     - if there is an error try running migration:  ./vendor/bin/sail artisan migrate
