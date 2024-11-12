@@ -18,11 +18,16 @@
     - See Gios Video here: https://www.youtube.com/watch?app=desktop&v=4K4nkncZ2OQ
 
 ### Launch Sail
-- Run "./vendor/bin/sail up -d" in Ubuntu Powershell (-d runs in background)
+- Run
+```
+./vendor/bin/sail up -d" in Ubuntu Powershell (-d runs in background)
+```
 
 ### Open project in conatiner with VS Code
-- File oepn folder
+- click File>Open Folder
 - Open from this location:  
-    \\wsl.localhost\Ubuntu\home\merwester74
+```
+     \\wsl.localhost\Ubuntu\home\merwester74
+```
 - type localhost into browser
     - if there is an error try running migration:  ./vendor/bin/sail artisan migrate
